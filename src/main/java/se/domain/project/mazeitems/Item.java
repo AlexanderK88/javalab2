@@ -9,6 +9,9 @@ public abstract class Item {
     this.positionY = positionY;
   }
 
+  protected Item() {
+  }
+
   public int getPositionX() {
     return positionX;
   }
