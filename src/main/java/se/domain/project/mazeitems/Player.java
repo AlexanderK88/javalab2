@@ -1,6 +1,6 @@
 package se.domain.project.mazeitems;
 
-public final class Player {
+public final class Player extends MazeItem {
   private String name;
   private int damage;
   private int health;

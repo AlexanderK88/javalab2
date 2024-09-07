@@ -1,6 +1,6 @@
 package se.domain.project.mazeitems;
 
-public abstract class Item {
+public abstract sealed class Item extends MazeItem permits Exit, Monster, Wall {
   private int positionX;
   private int positionY;
 
